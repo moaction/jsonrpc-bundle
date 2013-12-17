@@ -11,8 +11,9 @@
 	],
 	"require": {
 		"php": ">=5.3.3",
-		"moaction/jsonrpc-server": "dev-master",
-		"moaction/jsonrpc-client": "dev-master"
+		"moaction/jsonrpc-server" : "dev-master",
+		"moaction/jsonrpc-client" : "dev-master",
+		"symfony/framework-bundle": "~2.1"
 	},
 	"repositories": [
 		{
@@ -32,6 +33,6 @@
 		"phpunit/phpunit": "3.7.*"
 	},
 	"autoload": {
-		"psr-0": {"Moaction\\": "src/"}
+		"psr-0": {"Moaction\\JsonrpcBundle": ""}
 	}
 }
