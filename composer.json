@@ -11,24 +11,9 @@
 	],
 	"require": {
 		"php": ">=5.3.3",
-		"moaction/jsonrpc-server" : "dev-master",
-		"moaction/jsonrpc-client" : "dev-master",
+		"moaction/jsonrpc-server" : ">=1.0",
 		"symfony/framework-bundle": "~2.1"
 	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "git@git.moteam.ru:jsonrpc/common.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@git.moteam.ru:jsonrpc/server.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@git.moteam.ru:jsonrpc/client.git"
-		}
-	],
 	"require-dev": {
 		"phpunit/phpunit": "3.7.*"
 	},
