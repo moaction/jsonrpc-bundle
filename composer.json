@@ -34,5 +34,6 @@
 	},
 	"autoload": {
 		"psr-0": {"Moaction\\JsonrpcBundle": ""}
-	}
+	},
+	"target-dir": "Moaction/JsonrpcBundle"
 }
