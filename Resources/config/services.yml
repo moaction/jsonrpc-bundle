@@ -1,5 +1,6 @@
 parameters:
     moaction_jsonrpc.server.class: Moaction\Jsonrpc\Server\BasicServer
+    moaction_jsonrpc.client.class: Moaction\Jsonrpc\Client\ClientBasic
 
 services:
     moaction_jsonrpc.server:

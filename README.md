@@ -13,8 +13,8 @@ Usage
 3. Add some public methods with 'Method' postfix
 4. Enjoy the magic!
 
-Example
--------
+Server Example
+--------------
 
 ### Controller
 ```php
@@ -49,4 +49,22 @@ AcmeBundle_jsonrpc_api:
 ```
 --> {"jsonrpc": "2.0", "method": "getUserPost", "params": {"userId": 23, "postId": 456}, "id": 2}
 <-- {"jsonrpc": "2.0", "id": 2, "result": {"userId": 23, "postId": 456}}
+```
+
+Client example
+--------------
+For usage take a look at moaction/jsonrpc-client examples.
+
+Client class exists in parameter `moaction_jsonrpc.client.class`
+
+You can add dependency to any service using client class parameter. Don't forget to add url argument for service:
+
+services.yml:
+```
+services:
+    acme_hello.api.client:
+        class: %moaction_jsonrpc.client.class%
+        arguments:
+            - "http://example.com/api/jsonrpc"
+
 ```
