@@ -13,7 +13,7 @@ class JsonrpcController extends ContainerAware {
 	 * @param Request $request
 	 * @return Response
 	 */
-	public function execute(Request $request)
+	public function executeAction(Request $request)
 	{
 		$data = $request->getContent();
 
