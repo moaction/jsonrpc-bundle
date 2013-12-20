@@ -1,0 +1,6 @@
+parameters:
+    moaction_jsonrpc.server.class: Moaction\Jsonrpc\Server\BasicServer
+
+services:
+    moaction_jsonrpc.server:
+        class: %moaction_jsonrpc.server.class%

@@ -2,7 +2,6 @@
 
 namespace Moaction\Jsonrpc\Bundle\Controller;
 
-use Moaction\Jsonrpc\Server\BasicServer;
 use Moaction\Jsonrpc\Server\ServerInterface;
 use Symfony\Component\DependencyInjection\ContainerAware;
 use Symfony\Component\HttpFoundation\Request;
@@ -48,6 +47,6 @@ class JsonrpcController extends ContainerAware {
 	 */
 	protected function getServer()
 	{
-		return new BasicServer();
+		return $this->container->get('moaction_jsonrpc.server');
 	}
 }
