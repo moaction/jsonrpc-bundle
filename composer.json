@@ -11,7 +11,7 @@
 	],
 	"require": {
 		"php": ">=5.3.3",
-		"moaction/jsonrpc-server" : ">=1.0",
+		"moaction/jsonrpc-server" : ">=1.1",
 		"symfony/framework-bundle": "~2.1"
 	},
 	"require-dev": {
