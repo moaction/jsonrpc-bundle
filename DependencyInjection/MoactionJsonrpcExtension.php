@@ -1,6 +1,6 @@
 <?php
 
-namespace Moaction\JsonrpcBundle\DependencyInjection;
+namespace Moaction\Jsonrpc\Bundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;

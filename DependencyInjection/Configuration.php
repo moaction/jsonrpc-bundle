@@ -1,6 +1,6 @@
 <?php
 
-namespace Moaction\JsonrpcBundle\DependencyInjection;
+namespace Moaction\Jsonrpc\Bundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

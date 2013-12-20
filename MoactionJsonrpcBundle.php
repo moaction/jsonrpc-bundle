@@ -1,6 +1,6 @@
 <?php
 
-namespace Moaction\JsonrpcBundle;
+namespace Moaction\Jsonrpc\Bundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

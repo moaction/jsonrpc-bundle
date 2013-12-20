@@ -18,7 +18,7 @@
 		"phpunit/phpunit": "3.7.*"
 	},
 	"autoload": {
-		"psr-0": {"Moaction\\JsonrpcBundle": ""}
+		"psr-0": {"Moaction\\Jsonrpc\\Bundle": ""}
 	},
-	"target-dir": "Moaction/JsonrpcBundle"
+	"target-dir": "Moaction/Jsonrpc/Bundle"
 }

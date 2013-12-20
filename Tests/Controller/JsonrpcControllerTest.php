@@ -2,9 +2,9 @@
 
 namespace Moaction\JsonrpcBundle\Tests\Controller;
 
-use Moaction\JsonrpcBundle\Controller\JsonrpcController;
-use Moaction\JsonrpcBundle\Tests\Controller\Resources\EmptyTestController;
-use Moaction\JsonrpcBundle\Tests\Controller\Resources\FullTestController;
+use Moaction\Jsonrpc\Bundle\Controller\JsonrpcController;
+use Moaction\Jsonrpc\Bundle\Tests\Controller\Resources\EmptyTestController;
+use Moaction\Jsonrpc\Bundle\Tests\Controller\Resources\FullTestController;
 
 class JsonrpcControllerTest extends \PHPUnit_Framework_TestCase {
 	/**

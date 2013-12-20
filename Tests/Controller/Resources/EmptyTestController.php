@@ -1,8 +1,8 @@
 <?php
 
-namespace Moaction\JsonrpcBundle\Tests\Controller\Resources;
+namespace Moaction\Jsonrpc\Bundle\Tests\Controller\Resources;
 
-use Moaction\JsonrpcBundle\Controller\JsonrpcController;
+use Moaction\Jsonrpc\Bundle\Controller\JsonrpcController;
 
 /**
  * Controller with no methods

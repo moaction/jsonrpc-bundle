@@ -1,6 +1,6 @@
 <?php
 
-namespace Moaction\JsonrpcBundle\Controller;
+namespace Moaction\Jsonrpc\Bundle\Controller;
 
 use Moaction\Jsonrpc\Server\BasicServer;
 use Moaction\Jsonrpc\Server\ServerInterface;
